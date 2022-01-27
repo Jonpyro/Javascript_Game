@@ -496,7 +496,7 @@ class Game {
         let chars = this.chars;
         let shopItems = this.shopItems;
         console.log(chars[0].gold);
-        popUp.innerHTML = `<p>The shopkeep eyes you, "Welcom to my store! come take a look!"</p>
+        popUp.innerHTML = `<p>The shopkeep eyes you, "Welcome to my store! come take a look!"</p>
         <button id="ax">${shopItems[0].item}:${shopItems[0].cost}</button><button id="tower">${shopItems[1].item}:${shopItems[1].cost}</button><button id="health">${shopItems[2].item}:${shopItems[2].cost}</button>
         <p>Or you can leave. Nothings keeps you here</p><button id="pass">Leave</button>`
         let pass = document.getElementById('pass')
@@ -669,7 +669,7 @@ class Game {
                 this.bossRTurnOrder();
             }) // end conue event
         } else if (boss.Dp <= chars[0].Ap){
-            popUp.innerHTML = `<p>Your armor is strong! But mine sis stronger</P><button id="conue">Nice!</button>`
+            popUp.innerHTML = `<p>Your armor is strong! But mine is stronger</P><button id="conue">Nice!</button>`
             let conue = document.getElementById('conue')
             conue.addEventListener('click', () => {
                 console.log('ture')
