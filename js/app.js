@@ -141,6 +141,14 @@ class Game {
                 Dp: 10,
                 Ap: 0,
                 gold: 15
+            },
+            {
+                name: 'Slime',
+                img: 'media/slime.png',
+                Hp: 25,
+                Dp: 2.5,
+                Ap: 3,
+                gold: 20
             }
         ]
         this.fightMon = {
